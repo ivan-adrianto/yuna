@@ -2,7 +2,6 @@ import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/icons/logo.jpg";
 import useScrollToTop from "../../hooks/useScrollToTop";
-import Toast from "./Toast";
 
 function Navbar() {
   const navigate = useNavigate();

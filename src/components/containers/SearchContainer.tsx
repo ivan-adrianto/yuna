@@ -3,7 +3,6 @@ import { useDispatch } from "react-redux";
 import { useSearchParams } from "react-router-dom";
 import { searchMoviesRequest } from "../../redux/actionCreators";
 import { SearchMoviesParams } from "../../redux/actionTypes";
-import Navbar from "../common/Navbar";
 import SearchResult from "../Search/SearchResult";
 
 function SearchContainer() {
